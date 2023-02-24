@@ -1,0 +1,10 @@
+-- 单行插入
+insert into 表(字段1, ..., 字段N) values (value1, ..., value N);
+-- 多行插入
+insert into 表(字段1, ..., 字段N) values
+(value1, ...),
+(value2, ...),
+(value3, ...);
+-- 全列查询
+select * from 表
+-- 指定列查询
